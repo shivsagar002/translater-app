@@ -15,18 +15,52 @@
         </div>
         <div class="lang-select">
             <label for="sourceLang">From:</label>
-            <select id="sourceLang" class="dropdown-menu">
-                <option value="en" class="option active">English</option>
-                <option value="es" class="option">Spanish</option>
-                <option value="es" class="option">French</option>
-                <!-- Add more languages as needed -->
+            <select id="sourceLang" onchange="translateText()">
+                <option value="auto">Auto</option>
+                <option value="ar">Arabic</option>
+                <option value="zh-CN">Chinese</option>
+                <option value="nl">Dutch</option>
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="el">Greek</option>
+                <option value="hi">Hindi</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="fa">Persian</option>
+                <option value="pt">Portuguese</option>
+                <option value="ru">Russian</option>
+                <option value="es">Spanish</option>
+                <option value="tr">Turkish</option>
+                <option value="th">Thai</option>
+                <option value="ur">Urdu</option>
+                <option value="uk">Ukrainian</option>
+                <option value="sv">Swedish</option>
             </select>
             <label for="targetLang">To:</label>
-            <select id="targetLang" class="dropdown-menu">
-                <option value="en" class="option active">English</option>
-                <option value="es" class="option">Spanish</option>
-                <option value="es" class="option">French</option>
-                <!-- Add more languages as needed -->
+            <select id="targetLang" onchange="translateText()">
+                <option value="auto">Auto</option>
+                <option value="ar">Arabic</option>
+                <option value="zh-CN">Chinese</option>
+                <option value="nl">Dutch</option>
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="el">Greek</option>
+                <option value="hi">Hindi</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="fa">Persian</option>
+                <option value="pt">Portuguese</option>
+                <option value="ru">Russian</option>
+                <option value="es">Spanish</option>
+                <option value="tr">Turkish</option>
+                <option value="th">Thai</option>
+                <option value="ur">Urdu</option>
+                <option value="uk">Ukrainian</option>
+                <option value="sv">Swedish</option>
             </select>
         </div>
         <div class="output-group">
